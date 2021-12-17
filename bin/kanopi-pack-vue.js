@@ -8,7 +8,7 @@ const {
 } = require(path.resolve(__dirname, '..', 'index'));
 const {
     commands: { standard: program },
-    runners: { runDevServer, runProduction }
+    runners: { runDevServer, runWebpack }
 } = standardPackage;
 
 program
@@ -23,7 +23,7 @@ program
         console.log('');
         isDevelopment
             ? runDevServer(developmentConfig)
-            : runProduction(productionConfig);
+            : runWebpack(productionConfig);
     });
 
 program.parse(process.argv);
