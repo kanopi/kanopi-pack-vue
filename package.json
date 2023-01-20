@@ -41,6 +41,6 @@
   "dependencies": {
     "eslint-plugin-vue": "^9.8.0",
     "vue-eslint-parser": "^9.1.0",
-    "vue-loader": "^17.0.1"
+    "vue-loader": "~15.10.0"
   }
 }
