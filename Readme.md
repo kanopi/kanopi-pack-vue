@@ -3,6 +3,10 @@ Kanopi Pack - Vue Support
 
 The Kanopi Pack Vue module adds support to Webpack for Vue development and linting. Vue and associated libraries **are NOT** included in this package. The intent is for each front-end application to select the appropriate version (Vue 2.x or 3.x) for their use case.
 
+# Vue 2.x Support
+
+In order to support Vue 2.x, the vue-loader is locked at 15.x. Please note when installing `vue` and `vue-template-compiler` for version 2 that they match versions, i.e. `vue@2.6.14` and `vue-template-compiler@2.6.14`.
+
 # Linting Support
 
 The ESLint parser `vue-eslint-parser` and associated plugin `eslint-plugin-vue` are included in this package, and can be combined with either the core Babel or Typescript parsers included in Kanopi Pack. 
