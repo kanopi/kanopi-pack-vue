@@ -1,14 +1,14 @@
 const path = require('path');
-const { 
-    standardPackage: { 
+const {
+    standardPackage: {
         configuration: { development: developmentConfiguration },
         environment: { standard: { resolver: { requirePackageModule } } }
     }
 } = require(path.resolve(__dirname, '..', 'standard-loader'))();
-const merge = requirePackageModule('webpack-merge');
+const { merge } = requirePackageModule('webpack-merge');
 const VuePluginLoader = requirePackageModule('vue-loader/lib/plugin');
 
-module.exports = merge.smart(
+module.exports = merge(
     developmentConfiguration,
     {
         module: {

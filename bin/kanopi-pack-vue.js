@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 const path = require('path');
-const { 
-    chalk, 
+const {
+    chalk,
     standardPackage,
-    vue: { development: developmentConfig, production: productionConfig } 
+    vue: { development: developmentConfig, production: productionConfig }
 } = require(path.resolve(__dirname, '..', 'index'));
 const {
     commands: { standard: program },
@@ -13,7 +13,7 @@ const {
 
 program
     .command('vue')
-    .description('Run Vue application builds, set environment to develoment for HMR')
+    .description('Run Vue application builds, set environment to development for HMR')
     .argument('[environment]', 'Choose production (default) or development')
     .action((environment) => {
         const isDevelopment = 'development' === environment;
