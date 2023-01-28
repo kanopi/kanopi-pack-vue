@@ -1,6 +1,5 @@
 {
   "name": "@kanopi/pack-vue",
-  "version": "2.0.0",
   "description": "Extend @kanopi/pack support for Vue projects",
   "main": "index.js",
   "scripts": {
