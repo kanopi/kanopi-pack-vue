@@ -29,16 +29,16 @@
   },
   "peerDependencies": {
     "chalk": ">=4.1.2 <5",
-    "css-loader": "^6.7.1",
-    "eslint": "^8.25.0",
+    "css-loader": "~6.8.1",
+    "eslint": "~8.46.0",
     "webpack": ">=5"
   },
   "bin": {
     "kanopi-pack-vue": "./bin/kanopi-pack-vue.js"
   },
   "dependencies": {
-    "eslint-plugin-vue": "^9.8.0",
-    "vue-eslint-parser": "^9.1.0",
-    "vue-loader": "~15.10.0"
+    "eslint-plugin-vue": "~9.16.1",
+    "vue-eslint-parser": "~9.3.1",
+    "vue-loader": "~15.10.1"
   }
 }
