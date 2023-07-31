@@ -57,3 +57,10 @@ module.exports = {
     }
 }
 ```
+
+# Package Version Notes
+
+| Package | Version Limit | Reason |
+|:----|:----|:---|
+| `chalk` | 4.x | Version 5.x forward are ESM based, which is not easily compatible, staying on 4.x for CommonJS support |
+| `vue-loader` | 15.x | Limited to support version 2.x of Vue; anything past this breaks Vue 2.x support |
