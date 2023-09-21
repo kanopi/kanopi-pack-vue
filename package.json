@@ -29,8 +29,8 @@
   },
   "peerDependencies": {
     "chalk": ">=4.1.2 <5",
-    "css-loader": "~6.8.1",
-    "eslint": "~8.48.0",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.49.0",
     "webpack": ">=5"
   },
   "bin": {
