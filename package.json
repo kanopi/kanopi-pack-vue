@@ -30,14 +30,14 @@
   "peerDependencies": {
     "chalk": ">=4.1.2 <5",
     "css-loader": "^6.8.1",
-    "eslint": "^8.49.0",
+    "eslint": "~8.56.0",
     "webpack": ">=5"
   },
   "bin": {
     "kanopi-pack-vue": "./bin/kanopi-pack-vue.js"
   },
   "dependencies": {
-    "eslint-plugin-vue": "~9.18.1",
+    "eslint-plugin-vue": "~9.19.2",
     "vue-eslint-parser": "~9.3.2",
     "vue-loader": "~15.10.2"
   }
